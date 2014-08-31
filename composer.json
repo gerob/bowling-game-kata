@@ -1,0 +1,24 @@
+{
+    "name": "gerob/bowling-game",
+    "description": "The Bowling Game Kata by Uncle Bob",
+    "authors": [
+        {
+            "name": "Gerob Kimball",
+            "email": "gerobk@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "config": {
+        "bin-dir": "vendor/bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "Gerob\\": "src"
+        }
+    }
+}
